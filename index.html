@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <!-- bootstrap scipt tag -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- font awesome script tag -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Weather Dashboard</title>
@@ -23,12 +24,13 @@
         <h5 class="mt-1">Search for a City:</h5>
         <div class="form-inline form-group">
           <input class="form-control" type="text" id="search-value" />
+          <!-- class="fa fa-search" is a font awesome call -->
           <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
         </div>
 
         <ul class="list-group history"></ul>
       </aside>
-
+      <!-- these are the divs that the main data displayed to -->
       <div class="col-lg-9">
         <div id="today" class="mt-3"></div>
         <div id="forecast" class="mt-3"></div>
@@ -36,7 +38,7 @@
       </div>
     </div>
   </div>
-
+  <!-- Jquey , moments.js and script.js tags -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="script.js"></script>
